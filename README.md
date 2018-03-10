@@ -1,6 +1,6 @@
 # K-means algorithm
 Using Euclidean distance as metric
-## Tests
+### Tests
 Number of clusters: 3
 Number of iterations: 20
 Seeds are randomly selected
