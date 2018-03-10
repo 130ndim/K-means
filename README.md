@@ -4,10 +4,10 @@ Using Euclidean distance as metric
 Number of clusters: 3  
 Number of iterations: 20  
 Seeds are randomly selected  
-![First dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_1.png)  
-![Second dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_2.png)  
-![Third dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_3.png)  
-![Fourth dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_4.png)  
-![Fifth dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_5.png)  
-![Sixth dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_6.png)  
-![Seventh dataset](https://github.com/130ndim/K-means/blob/master/images/dataset_7.png)  
+![1](https://github.com/130ndim/K-means/blob/master/images/dataset_1.png)  
+![2](https://github.com/130ndim/K-means/blob/master/images/dataset_2.png)  
+![3](https://github.com/130ndim/K-means/blob/master/images/dataset_3.png)  
+![4](https://github.com/130ndim/K-means/blob/master/images/dataset_4.png)  
+![5](https://github.com/130ndim/K-means/blob/master/images/dataset_5.png)  
+![6](https://github.com/130ndim/K-means/blob/master/images/dataset_6.png)  
+![7](https://github.com/130ndim/K-means/blob/master/images/dataset_7.png)  
