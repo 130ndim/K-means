@@ -4,6 +4,9 @@ Using Euclidean distance as metric
 Number of clusters: 3  
 Number of iterations: 20  
 Seeds are randomly selected  
+<p align="center">
+  <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="256" title="Github Logo">
+</p>
 ![1](https://github.com/130ndim/K-means/blob/master/images/dataset_1.png)  
 ![2](https://github.com/130ndim/K-means/blob/master/images/dataset_2.png)  
 ![3](https://github.com/130ndim/K-means/blob/master/images/dataset_3.png)  
