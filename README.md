@@ -5,7 +5,7 @@ Number of clusters: 3
 Number of iterations: 20  
 Seeds are randomly selected  
 <p align="center">
-  <img src="https://github.com/130ndim/K-means/blob/master/images/dataset_1.png" width="256" title="Github Logo">
+  <img src="https://github.com/130ndim/K-means/blob/master/images/dataset_1.png">
 </p>
 ![1](https://github.com/130ndim/K-means/blob/master/images/dataset_1.png)  
 ![2](https://github.com/130ndim/K-means/blob/master/images/dataset_2.png)  
