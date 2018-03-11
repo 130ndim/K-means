@@ -1,23 +1,27 @@
-import java.awt.*;
+import javax.imageio.ImageIO;
+import java.awt.Graphics;
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.io.File;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         CSVReader csvReader = new CSVReader();
-        ArrayList<Point> points = csvReader.CSVReader("/Users/dmitry/Desktop/KMeansImplementation/data/mask_7.csv");
-        for(Point point : points) {
-            System.out.print(point.x + " " + point.y + "\n");
-
-        }
+        ArrayList<Point> points = csvReader.CSVReader("data/mask_7.csv"); // dataset path
         int k = 3;
         int iter = 20;
         RandomSeed random = new RandomSeed();
-        ArrayList<Point> seeds = random.GetPoints(k);
+        ArrayList<Point> seeds = random.GetPoints(k);;
 
-        Frame frame = new Frame();
-        Graphics g = frame.panel.getGraphics();
         Drawer d = new Drawer();
+
+        BufferedImage bufferedImage = new BufferedImage(600, 600, BufferedImage.TYPE_INT_RGB);
+        Graphics g = bufferedImage.createGraphics();
+        g.setColor(Color.white);
+        g.fillRect(0, 0, 600, 600);
 
         Point[] centroids = KMeans.kmeans(points, k, iter, seeds);
         Cluster[] clusters = KMeans.clusters;
@@ -29,5 +33,11 @@ public class Main {
                 d.paint(g, p, i+1);
             }
         }
+
+        g.dispose();
+
+        File file = new File("output/mask_7.png"); // output path
+        ImageIO.write(bufferedImage, "png", file);
+
     }
 }

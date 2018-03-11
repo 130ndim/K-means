@@ -62,10 +62,4 @@ public class KMeans {
 
     }
 
-    public Cluster[] GetCLusters() {
-        return clusters;
-    }
-
-
-
 }

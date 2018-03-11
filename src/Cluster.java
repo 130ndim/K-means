@@ -17,10 +17,6 @@ public class Cluster {
         return centroid;
     }
 
-    public void SetCentroid(Point c) {
-        centroid = c;
-    }
-
     public int GetSize() {
         return points.size();
     }
